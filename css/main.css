@@ -41,3 +41,12 @@ ul.posts {
 ul.posts li {
     list-style: none;
 }
+
+.custom-link {
+    color: #12dfff; /* Change this to your desired color */
+    text-decoration: none; /* Optional: Remove underline */
+}
+
+.custom-link:hover {
+    color: #e80000; /* Change this to your desired hover color */
+}
