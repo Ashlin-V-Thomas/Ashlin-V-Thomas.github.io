@@ -6,7 +6,7 @@ export const PROFILE = {
   email: "ashlinv.thomas@niser.ac.in",
   birthday: "30 March, 2004",
   location: "NISER, Bhubaneswar, India",
-  image: "./assets/images/AshlinProfile.jpeg",
+  image: "/assets/images/AshlinProfile.jpeg",
   socials: {
     github: "https://github.com/Ashlin-V-Thomas",
     twitter: "https://x.com/AshlinVThomas",
@@ -164,7 +164,7 @@ export const CONTRIBUTIONS: Contribution[] = [
     abstract: "Classical and quantum mechanics: so united in purpose, yet worlds apart in their formalism. While position-momentum phase space, poison brackets and Hamilton’s equations reign the realm of classical mechanics, the quantum domain is governed by Hilbert spaces, hermitian operators and Schrodinger equation. Initial attempts to bridge the gap are quickly thwarted by Heisenberg and his uncertainty principle, but let’s not give up just yet. In the talk, I will try to define the quantum counterparts of elements of classical mechanics using the language of Wigner-Weyl transform. I’ll aim to establish a robust semi-classical approach to quantum mechanics — one that isn’t just an approximation, but is actually exact! Along the way, expect some fun examples, fewer headaches, and a bit more harmony in the universe—or at least in our equations!",
     links: [
       { label: "Youtube Video", url: "https://www.youtube.com/watch?v=O3ZkijtkoRg" },
-      { label: "Download Slides", url: "./assets/pdfs/WignerWeyl_VikiranTalk.pdf" }
+      { label: "Download Slides", url: "/assets/pdfs/WignerWeyl_VikiranTalk.pdf" }
     ]
   },
   {
@@ -173,7 +173,7 @@ export const CONTRIBUTIONS: Contribution[] = [
     abstract: "In the realm of quantum mechanics, Hamiltonians are central to under-standing the behaviour of quantum systems, as they encapsulate the total energy and dynamics of these systems. In a finite-dimensional Hilbert space, one can represent Hamiltonians as Hermitian matrices but the challenge lies in effectively visualizing and interpreting these matrices. Formally, what would be a good basis to represent a Hamiltonian? In this talk, we will explore the idea of transforming Hamiltonians into “smooth images” using a basis change through a unitary transformation. We will lay out the rigorous mathematical framework behind this transformation and study the properties of the resulting images. We will also discuss the robustness of these representations to noise, which is crucial for practical applications in quantum error mitigation and quantum control. Beyond the equations, this approach opens a new visual way of thinking about quantum systems - where the algebra of operators meets the aesthetics of image processing. By the end of this talk, one would leave with not just a new perspective on visualizing Hamiltonians but also an appreciation of the interplay between quantum mechanics, linear algebra, and image processing.",
     links: [
       { label: "Youtube Video", url: "https://www.youtube.com/watch?v=RX38xi0GiFk" },
-      { label: "Download Slides", url: "./assets/pdfs/TurningHamiltoniansIntoImages_VikiranTalk.pdf" }
+      { label: "Download Slides", url: "/assets/pdfs/TurningHamiltoniansIntoImages_VikiranTalk.pdf" }
     ]
   },
   {
@@ -181,7 +181,7 @@ export const CONTRIBUTIONS: Contribution[] = [
     title: "Nonlinear Dynamics",
     abstract: "In this project, we will discuss the basics of nonlinear dynamics and will dive into the study of a nonlinear system - a population growth model involving different population interactions. Nonlinear dynamics involves the study of systems that are governed by equations that are not of the linear form - such as population dynamics, double pendulum, weather dynamics and fluid dynamics. We will begin our study with an analysis of first-order and linear systems, introducing the notion of fixed points and their stability and bifurcations and its different types. We will look into a few numerical methods to solve these systems and phase plane analysis. We will conclude by analyzing a second-order nonlinear system of two populations interacting with each other.",
     links: [
-      { label: "Download Report", url: "./assets/pdfs/Non_linear_Dynamics_final-1.pdf" }
+      { label: "Download Report", url: "/assets/pdfs/Non_linear_Dynamics_final-1.pdf" }
     ]
   },
   {
@@ -189,8 +189,8 @@ export const CONTRIBUTIONS: Contribution[] = [
     title: "Google PageRank Algorithm",
     abstract: "The Google PageRank algorithm is a cornerstone of modern web search engines, providing a mechanism to rank web pages based on their link structure. This project explores the mathematical foundation of the algorithm, modeling the internet as a directed graph using stochastic matrices and probability vectors. An iterative scheme is utilized to compute the PageRank vector, representing the steady-state distribution of web page ranks. The computational challenges of convergence and the scalability of the algorithm are addressed.",
     links: [
-      { label: "Download Report", url: "./assets/pdfs/googlepagerank_finalreport.pdf" },
-      { label: "Download Slides", url: "./assets/pdfs/Google Page Rank Algorithm-1.pdf" }
+      { label: "Download Report", url: "/assets/pdfs/googlepagerank_finalreport.pdf" },
+      { label: "Download Slides", url: "/assets/pdfs/Google Page Rank Algorithm-1.pdf" }
     ]
   },
   {
@@ -198,7 +198,7 @@ export const CONTRIBUTIONS: Contribution[] = [
     title: "Automorphism Group of Symmetric Groups",
     abstract: "In the domain of group theory, one finds symmetric groups or permutation groups to be significant when it comes to understanding the symmetries and structure of mathematical objects, extending its applications to topology, combinatorics and cryptography. In this report, we will discuss about the group of automorphisms - structure-preserving maps - on symmetric groups and list a few important theorems.",
     links: [
-      { label: "Download Report", url: "./assets/pdfs/Automorphism_group_of_Symmetric_Groups.pdf" }
+      { label: "Download Report", url: "/assets/pdfs/Automorphism_group_of_Symmetric_Groups.pdf" }
     ]
   },
   {
@@ -206,7 +206,7 @@ export const CONTRIBUTIONS: Contribution[] = [
     title: "The Splitwise Problem",
     abstract: "One evening, out of sheer boredom, I started pondering how the famous application Splitwise works. The concept is straightforward: you and your friends make numerous payments for each other, and at the end of the day, you want to settle all debts. What is the minimum number of transactions required to achieve this? Check out the report to find the answer.",
     links: [
-      { label: "Download Report", url: "./assets/pdfs/The__Splitwise__Problem-1.pdf" }
+      { label: "Download Report", url: "/assets/pdfs/The__Splitwise__Problem-1.pdf" }
     ]
   }
 ];
