@@ -5,6 +5,8 @@ import react from '@vitejs/plugin-react';
 export default defineConfig(({ mode }) => {
     const env = loadEnv(mode, '.', '');
     return {
+      // 🌟 ADD THIS LINE TO FIX ASSET PATHS ON GITHUB PAGES
+      base: '/', 
       server: {
         port: 3000,
         host: '0.0.0.0',
