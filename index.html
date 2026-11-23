@@ -30,6 +30,15 @@
         darkMode: 'class',
         theme: {
           extend: {
+            keyframes: {
+              fadeIn: {
+                '0%': { opacity: '0', transform: 'translateY(6px)' },
+                '100%': { opacity: '1', transform: 'translateY(0)' },
+              },
+            },
+            animation: {
+              'fade-in': 'fadeIn 0.35s ease-out forwards',
+            },
             fontFamily: {
               sans: ['Inter', 'sans-serif'],
               serif: ['Playfair Display', 'serif'],
@@ -53,7 +62,7 @@
         }
       }
     </script>
-    <style>
+    <style type="text/tailwindcss">
       body {
         @apply bg-stone-50 text-slate-800 transition-colors duration-300;
       }
@@ -78,20 +87,7 @@
       gtag('js', new Date());
       gtag('config', 'G-NGL88CW9Z8');
     </script>
-  
-
-    <script type="importmap">
-    {
-      "imports": {
-        "react": "https://aistudiocdn.com/react@^19.2.0",
-        "react/": "https://aistudiocdn.com/react@^19.2.0/",
-        "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
-        "recharts": "https://aistudiocdn.com/recharts@^3.5.1",
-        "lucide-react": "https://aistudiocdn.com/lucide-react@^0.555.0"
-      }
-    }
-    </script>
-    <script type="module" crossorigin src="./assets/index-vxO6LopM.js"></script>
+    <script type="module" crossorigin src="./assets/index-B6gKJshm.js"></script>
   </head>
   <body class="antialiased">
     <div id="root"></div> 
